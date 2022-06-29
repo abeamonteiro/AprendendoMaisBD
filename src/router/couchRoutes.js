@@ -6,6 +6,6 @@ const express = require('express')
 
 const router = express.Router()
 
-router.post('treinador', controller.creatCoach)
+router.post('/treinador', controller.creatCoach)
 
 module.exports = router

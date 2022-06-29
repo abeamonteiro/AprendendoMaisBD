@@ -10,7 +10,7 @@ app.use(cors()) //2.2 deixar a api publica //configurando a app
 
 mongoose.connect() // //3.2 conectar o banco //configurando a app
 
-app.use("/", coachRoutes) // somente depois que o banco conectar; somente configuração de api
+app.use(coachRoutes) // somente depois que o banco conectar; somente configuração de api
 
 
 
