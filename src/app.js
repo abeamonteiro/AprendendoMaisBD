@@ -2,6 +2,7 @@ const express = require('express')
 const cors = require('cors') //2.1 deixar a api publica //configurando a app
 const mongoose = require('./database/mogooseConnect') //3.1 conectar o banco //configurando a app
 const coachRoutes = require('./router/couchRoutes')
+const pokedexRoutes = require('./router/pokedexRoutes')
 
 const app = express() //criando a aplicação
 
@@ -11,7 +12,7 @@ app.use(cors()) //2.2 deixar a api publica //configurando a app
 mongoose.connect() // //3.2 conectar o banco //configurando a app
 
 app.use(coachRoutes) // somente depois que o banco conectar; somente configuração de api
-
+app.use(pokedexRoutes)
 
 
 module.exports = app

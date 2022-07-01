@@ -1,0 +1,28 @@
+{
+  "name": "aprendendomaisbd",
+  "version": "1.0.0",
+  "description": "Turma Online 16 - Todas em Tech | Back-end | 2022 | Semana 13 - Projeto Guiado CRUD com MongoDB",
+  "main": "server.js",
+  "scripts": {
+  "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abeamonteiro/AprendendoMaisBD.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/abeamonteiro/AprendendoMaisBD/issues"
+  },
+  "homepage": "https://github.com/abeamonteiro/AprendendoMaisBD#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.1"
+  },
+  "devDependencies": {
+    "mongoose": "^6.4.0",
+    "nodemon": "^2.0.18"
+  }
+}
